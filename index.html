@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player with Play Icon Animation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Include GSAP library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Include Locomotive Scroll library -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+    <!-- Include ScrollTrigger plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <div id="loading-animation">Loading...</div>
+
+    <div id="nav">
+        <div id="nav2">
+            <div id="links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Search</a>
+                <a href="#">Categories</a>
+            </div>
+            <div id="icons">
+                <i class="ri-menu-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+                <i class="ri-account-pin-circle-fill"></i>
+            </div>
+        </div>
+    </div>
+    
+<div id="logo">
+  <img src="D:\Downloads\Pink_and_White_Beauty_Guru_Logo-removebg-preview.png" alt="">
+</div>
+    <div id="main">
+        <div id="page1"> 
+            <h1>Change</h1>
+            <h1>the course</h1>
+            <h2>Made with love! <br> for her, with her!</h2>
+            <div id="video-container"> 
+                <div id="play">PLAY</div>
+                <video width="100%" height="100%" controls autoplay muted>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div id="page2">
+            <div class="polaroid">
+                <img  src="C:\Users\Admin\Downloads\faaa.jpg" alt="5 Terre" style="width:100%">
+                <div  class="container">
+                    <p>FASHION!</p>
+                </div>
+                <div data-scroll data-scroll-speed="-1.5" class="dets1"></div>
+            </div>
+            <div class="polaroid">
+                <img  src="C:\Users\Admin\Downloads\skin care.jpg" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p> Skin care!</p>
+                </div>
+                <div data-scroll data-scroll-speed="-1.5" class="dets2"></div>
+            </div>
+            <div class="polaroid">
+                <img   src="C:\Users\Admin\Downloads\self2.jpg" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p>Self care!</p>
+                </div>
+                <div data-scroll data-scroll-speed="-1.5" class="dets3"></div>
+            </div>
+        </div>
+        <div id="page3">
+            <div class="child" id="child1" >
+                <img src= "https://media.istockphoto.com/id/1178477986/photo/3d-rendering-fitness-equipment-on-color-background.jpg?s=2048x2048&w=is&k=20&c=_XDWM5GuUXntV6-40R1xUA_Txs7JNfcKYDWuHrRRLPA=" alt="">
+            </div>
+            <div class="child" id="child2">
+                <img src="https://bookiestalk.com/wp-content/uploads/2024/01/Make-Epic-Money-book-with-Sticky-Flags.jpg" alt="">
+            </div>
+            <div class="child" id="child3">
+                <img src="https://ucarecdn.com/2ab55846-89c4-4a23-b8b7-fec5e972b866/-/preview/giXwHzew" alt="">
+            </div>
+            <div class="child" id="child4">
+                <img src="https://media.istockphoto.com/id/1180806464/photo/clothing-outfit-white-backpack-jeans-striped-t-shirt-blue-sneakers.jpg?s=2048x2048&w=is&k=20&c=VYnCNaqy0CQi9336G2HoARjeR3MWU6DP3Wwu6tLYLB8=" alt="https://media.istockphoto.com/id/1257331149/photo/womens-cotton-bermuda-shorts-brown-t-shirt-crossbody-bag-white-leather-sneakers-on-a-light.jpg">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Include script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
